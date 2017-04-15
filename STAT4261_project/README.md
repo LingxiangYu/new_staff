@@ -1,4 +1,4 @@
-# *MATH 5360 FINAL PROJECT*
+# *STAT 4261 FINAL PROJECT*
 
 Try to use python code to simulate Breakout trading
 
