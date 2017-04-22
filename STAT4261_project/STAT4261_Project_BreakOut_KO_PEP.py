@@ -104,12 +104,12 @@ def main_loop(data):
     fig, ax = plt.subplots()
     ax.plot(Ratio[:,0],Ratio[:,1])
     if len(data)==827:
-        Return_Ratio.to_csv('coca_return_ratio.csv', sep="\t")
+        Return_Ratio.to_csv('coca_return_ratio.csv')
         ax.set_title('Coca Return Ratio')       
         plt.show()
         fig.savefig('coca.png')
     if len(data)==828:
-        Return_Ratio.to_csv('pepsi_return_ratio.csv', sep="\t")
+        Return_Ratio.to_csv('pepsi_return_ratio.csv')
         ax.set_title('Pepsi Return Ratio')
         plt.show()
         fig.savefig('pepsi.png')
